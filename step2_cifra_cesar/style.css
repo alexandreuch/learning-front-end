@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: rgb(9, 83, 102);
+}
+
+header{
+
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+}
+div{
+    padding-top: 20px;
+    text-align: center;
+    max-width: 15ch;
+    
+}
+footer{
+    font-size: small;
+    color:white;
+}

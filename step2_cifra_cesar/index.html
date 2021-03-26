@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cifra de César</title>
+</head>
+<body>
+    <header>
+        <h1>Cifra de César</h1>
+    </header>
+    <section>
+        <p>
+            <input type="radio" name="ecript" id="enc">
+            <label for="enc"> Encriptar </label>
+            <input type="radio" name="ecript" id="denc">
+            <label for="denc"> Desencriptar </label>
+        </p>
+        <input type="text" placeholder="Coloque aqui" id="entrada">
+        <button type="button" onclick="decifra()">Enter</button> 
+        <div id="res"></div>
+    </section>
+    <footer>
+        <p>&copy; alexandreuch</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
