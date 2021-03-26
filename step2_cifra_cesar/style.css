@@ -1,27 +1,41 @@
 body{
     text-align: center;
-    background-color: rgb(9, 83, 102);
-}
-
-header{
-
+    background-color: rgb(179, 170, 57);
 }
 
 section {
     background-color: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    width: 1000px;
+    height:150px;
     margin: auto;
     box-shadow: 3px 3px 10px black;
 }
+#entrada{
+    width:600px;
+    height:20px;
+}
+#desloc{
+    width:50px;
+    height:20px;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+#butt{
+    width:80px;
+    height:25px;
+}
 div{
+    max-width: 140ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     padding-top: 20px;
     text-align: center;
-    max-width: 15ch;
-    
 }
 footer{
-    font-size: small;
-    color:white;
+    font-size: medium;
+    color:black;
 }

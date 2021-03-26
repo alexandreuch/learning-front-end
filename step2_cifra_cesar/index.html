@@ -13,13 +13,16 @@
     </header>
     <section>
         <p>
-            <input type="radio" name="ecript" id="enc">
-            <label for="enc"> Encriptar </label>
+            <input type="radio" name="ecript" id="enc" checked>
+            <label for="enc">Criptografar</label>
             <input type="radio" name="ecript" id="denc">
-            <label for="denc"> Desencriptar </label>
+            <label for="denc">Descriptografar</label>
         </p>
-        <input type="text" placeholder="Coloque aqui" id="entrada">
-        <button type="button" onclick="decifra()">Enter</button> 
+
+        <input type="text" placeholder="Coloque uma frase sem caracteres especiais ou espaços" id="entrada">
+        <input type="number" placeholder="Desloc" id="desloc">
+        <button type="button" id="butt" onclick="decifra()">Enter</button> 
+        
         <div id="res"></div>
     </section>
     <footer>
